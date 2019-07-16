@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h2>Turno del jugador 1</h2>
+    <div class="container">
+      <div id="linea"></div>
+      <div class="row first">
+        <div onclick="jugada(0,0)"></div>
+        <div onclick="jugada(0,1)"></div>
+        <div onclick="jugada(0,2)"></div>
+      </div>
+      <div class="row">
+        <div onclick="jugada(1,0)"></div>
+        <div onclick="jugada(1,1)"></div>
+        <div onclick="jugada(1,2)"></div>
+      </div>
+      <div class="row">
+        <div onclick="jugada(2,0)"></div>
+        <div onclick="jugada(2,1)"></div>
+        <div onclick="jugada(2,2)"></div>
+      </div>
+    </div>
+    <h3></h3>
+    <button onclick="reiniciar()">Reiniciar</button>
+    <script src="index.js"></script>
+  </body>
+</html>
